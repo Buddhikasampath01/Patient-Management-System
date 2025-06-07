@@ -1,0 +1,105 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #071952;
+    color: white;
+    padding: 2px;
+    justify-content: center;
+    position: relative;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.labels {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.label {
+    background-color: #071952;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 70px;
+}
+.label.ready {
+    background-color: #071952;
+    color: white;
+    font-weight: bold;
+    width: 580px;
+    font-size: 44px;
+}
+.container{
+    width: 98%;
+    height: 100vh;
+    display: grid;
+    
+    padding: 10px;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 10px;
+}
+.room{
+    flex: 1 1 15%;
+    background-color: #e5eff7;
+    border: 2px solid #071952;
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr;
+    border-radius: 10px;
+    
+}
+.patient{
+ align-content: center;
+ text-align: center;
+ font-size: 150px;
+ font-weight: bold;
+
+
+}
+.roomnumber{
+padding-top: 30px;
+align-content: center;
+text-align: center;
+background-color: #071952;
+font-size: 50px;
+font-weight: bold;
+color: white;
+}
+.number{
+align-content: center;
+text-align: center;
+background-color: #071952;
+border-radius: 0 0 10px 10px;
+font-size: 50px;
+padding-bottom: 20px;
+font-weight: bold;
+color: white;
+}
+.video{
+    border-radius: 10px;
+}
