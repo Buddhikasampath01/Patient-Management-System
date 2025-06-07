@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="csscollecting.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+
+<body>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left">
+			</div>
+			<div class="right">
+				<h2>District Hospital, Karandeniya</h2>
+				<input type="text" id="name" class="field" placeholder="Your Name">
+				<input type="text" id="queueNumber" class="field" placeholder="Your Queue Number">
+				<input type="text" id="phoneNumber" class="field" placeholder="Email Adderss">
+				<button class="btn">REGISTER FOR UPDATES</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="script.js" type="module"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init({
+				publicKey: "mFzitV23tcdfivyCr",
+			});
+		})();
+	</script>
+
+</body>
+
+</html>
